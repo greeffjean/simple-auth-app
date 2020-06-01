@@ -1,11 +1,44 @@
 ## Project Title
-My App API
+My App API - A simple Auth app.
+
+The front-end repo is [here](https://github.com/greeffjean/my-app-client)
 
 
-### Requirements
+# Setup Instructions
 
-- [Install the Serverless Framework](https://serverless.com/framework/docs/providers/aws/guide/installation/)
-- [Configure your AWS CLI](https://serverless.com/framework/docs/providers/aws/guide/credentials/)
+
+Install the dependancies: 
+
+```
+$ npm install
+```
+
+
+Then you start the dev server:
+
+```
+$ npm start
+
+```
+
+Your backend server should be running on `localhost://3000`, create-react-app will default to `localhost://3001` for you.
+
+# Deployment Instructrions
+
+**TO BE DONE**
+
+The following resources were used to create/deploy this app: 
+
+* [Seed](https://seed.run/docs/)
+* [Serverless Stack](https://serverless-stack.com/)
+
+
+## Built With 
+Visual Studio Code
+
+## Authors
+Jean Greeff, GitHub - https://github.com/greeffjean
+
 
 
 ### Installation
@@ -28,28 +61,8 @@ Install the Node.js packages
 $ npm install
 ```
 
-## Deployment 
-
-
-## Built With 
-Visual Studio Code.
-Amazon Web Service.
-
-
-## Contributing
-none
-
-## Versioning
-none
-
 ## Authors
 Jean Greeff, GitHub - https://github.com/greeffjean
-
-## License
-none
-
-## Acknowledgments
-none
 
 # Serverless Node.js Starter
 
