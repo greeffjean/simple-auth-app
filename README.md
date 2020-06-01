@@ -12,16 +12,13 @@ Install the dependancies:
 ```
 $ npm install
 ```
-
-
-Then you start the dev server:
-
 ```
-$ npm start
-
+$ npm aws-sdk
+```
+```
+$ npm uuid
 ```
 
-Your backend server should be running on `localhost://3000`, create-react-app will default to `localhost://3001` for you.
 
 # Deployment Instructrions
 
