@@ -1,4 +1,5 @@
-service: sirion-auth
+
+service: my-app
 
 # Create an optimized package for our functions
 package:
@@ -16,3 +17,5 @@ provider:
   region: us-east-2
 
   
+
+

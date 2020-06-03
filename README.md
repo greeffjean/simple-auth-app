@@ -12,12 +12,16 @@ Install the dependancies:
 ```
 $ npm install
 ```
+<<<<<<< HEAD
 ```
 $ npm aws-sdk
 ```
 ```
 $ npm uuid
 ```
+=======
+
+>>>>>>> 0918f1aeb69f24f50ef5d2fffc5b32a7890803fe
 
 
 # Deployment Instructrions
