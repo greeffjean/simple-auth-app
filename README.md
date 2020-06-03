@@ -1,3 +1,66 @@
+## Project Title
+My App API - A simple Auth app.
+
+The front-end repo is [here](https://github.com/greeffjean/my-app-client)
+
+
+# Setup Instructions
+
+
+Install the dependancies: 
+
+```
+$ npm install
+```
+```
+$ npm aws-sdk
+```
+```
+$ npm uuid
+```
+
+
+# Deployment Instructrions
+
+**TO BE DONE**
+
+The following resources were used to create/deploy this app: 
+
+* [Seed](https://seed.run/docs/)
+* [Serverless Stack](https://serverless-stack.com/)
+
+
+## Built With 
+Visual Studio Code
+
+## Authors
+Jean Greeff, GitHub - https://github.com/greeffjean
+
+
+
+### Installation
+
+To create a new Serverless project.
+
+``` bash
+$ serverless install --url https://github.com/AnomalyInnovations/serverless-nodejs-starter --name my-project
+```
+
+Enter the new directory
+
+``` bash
+$ cd my-project
+```
+
+Install the Node.js packages
+
+``` bash
+$ npm install
+```
+
+## Authors
+Jean Greeff, GitHub - https://github.com/greeffjean
+
 # Serverless Node.js Starter
 
 A Serverless starter that adds ES7 syntax, serverless-offline, linting, environment variables, and unit test support. Part of the [Serverless Stack](http://serverless-stack.com) guide.
@@ -48,30 +111,8 @@ const message = ({ time, ...rest }) => new Promise((resolve, reject) =>
 
 We have detailed instructions on how to upgrade your app to the v2.0 of the starter if you were using v1.x before. [Read about it here](https://github.com/AnomalyInnovations/serverless-nodejs-starter/releases/tag/v2.0).
 
-### Requirements
 
-- [Install the Serverless Framework](https://serverless.com/framework/docs/providers/aws/guide/installation/)
-- [Configure your AWS CLI](https://serverless.com/framework/docs/providers/aws/guide/credentials/)
 
-### Installation
-
-To create a new Serverless project.
-
-``` bash
-$ serverless install --url https://github.com/AnomalyInnovations/serverless-nodejs-starter --name my-project
-```
-
-Enter the new directory
-
-``` bash
-$ cd my-project
-```
-
-Install the Node.js packages
-
-``` bash
-$ npm install
-```
 
 ### Usage
 
