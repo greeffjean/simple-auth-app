@@ -1,6 +1,6 @@
 export default function handler(lambda) {
     return function (event, context) {
-        return Promise.resolve()
+           return Promise.resolve()
             // Run the Lambda
             .then(() => lambda(event, context))
             // On success
